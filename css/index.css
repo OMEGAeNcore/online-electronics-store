@@ -128,16 +128,26 @@ a.nav-link {
 }
 
 /* Main Section */
-.main-wrapper {
-  display: block;
-  height: 500px;
+.main-wrapper .main-img {
+  height: 600px;
 }
-
 .main-img {
-  height: 500px;
+  background-image: url("../assets/mian-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.main-intro {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 250px;
+  margin-right: 350px;
 }
 
-.main-img img {
-  width: 100%;
-  height: 100%;
+.main-intro h2 {
+  font-size: 3em;
+}
+.main-intro p {
+  font-size: 32px;
 }
