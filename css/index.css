@@ -99,7 +99,7 @@ li {
   display: inline-block;
   vertical-align: middle;
   height: 40px;
-  line-height: 50px;
+  line-height: 80px;
 }
 
 .nav-logo img {
@@ -119,8 +119,36 @@ li {
   position: relative;
 }
 
+.nav-item .search-tab {
+  width: 350px;
+  position: relative;
+  display: flex;
+}
+
+.nav-item .search-bar {
+  width: 100%;
+  border: 3px solid #616161;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.nav-item .search-btn {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #3f4b4d;
+  background: #616161;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 .nav-link {
-  padding: 0 40px;
+  padding: 27px 13px;
 }
 
 a.nav-link {
