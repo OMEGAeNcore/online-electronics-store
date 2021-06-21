@@ -5,12 +5,13 @@
 }
 
 .item-img-section {
-  width: 100%;
+  width: max-content;
+  margin: 50px;
+  margin-top: 10px;
 }
 
 .img-wrapper {
-  width: 500px;
-  padding: 20px;
+  width: 100%;
 }
 
 .img-wrapper img {
@@ -20,6 +21,7 @@
 .item-description {
   display: flex;
   flex-direction: column;
+  width: 50%;
   padding: 20px;
 }
 
@@ -39,4 +41,25 @@
 .item-price span {
   font-size: 30px;
   color: #d41717;
+}
+
+.item-buy {
+  margin: 0 0 20px;
+}
+
+.item-buy .buy-btn {
+  padding: 15px 25px;
+  border: none;
+  background-color: #ff7525;
+  color: black;
+}
+.item-buy .buy-btn:hover {
+  padding: 15px 30px;
+  border: none;
+  background-color: rgb(255, 145, 0);
+  color: black;
+}
+
+.item-dsc li {
+  list-style-type: disc;
 }
