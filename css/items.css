@@ -1,0 +1,42 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 80px;
+}
+
+.item-img-section {
+  width: 100%;
+}
+
+.img-wrapper {
+  width: 500px;
+  padding: 20px;
+}
+
+.img-wrapper img {
+  width: 100%;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.item-name {
+  padding: 0 0 20px;
+}
+
+.item-name h2 {
+  text-transform: uppercase;
+}
+
+.item-price {
+  color: #616161;
+  padding: 0 0 30px;
+}
+
+.item-price span {
+  font-size: 30px;
+  color: #d41717;
+}

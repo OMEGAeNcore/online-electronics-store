@@ -3,7 +3,7 @@
   <head>
     <title>Our Store</title>
     <link rel="stylesheet" href="./font-awesome/css/all.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
     <header class="navigation">
@@ -35,22 +35,14 @@
       <div class="nav-container-2">
         <div class="fixed_top">
           <div class="nav-logo">
-            <img class="logo" src="./assets/logo.png" alt="Logo" />
+            <img class="logo" src="../assets/logo.png" alt="Logo" />
           </div>
           <div class="navbar">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <div class="search-tab">
-                  <input
-                    class="search-bar"
-                    id="search-id"
-                    type="text"
-                    placeholder="Search"
-                  />
-                  <button
-                    class="search-btn"
-                    onclick="document.getElementById('search-id').value = ''"
-                  >
+                  <input class="search-bar" type="text" placeholder="Search" />
+                  <button class="search-btn">
                     <i class="fas fa-search"></i>
                   </button>
                 </div>
@@ -59,16 +51,20 @@
                 <a class="nav-link" href="#"> Our Products </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./src/mobile.html"> Mobile Phones </a>
+                <a class="nav-link" href="./src/mobile-catelogue.html">
+                  Mobile Phones
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./src/laptop.html"> Laptops </a>
+                <a class="nav-link" href="./src/laptop-catelogue.html">
+                  Laptops
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./src/tv.html"> TV </a>
+                <a class="nav-link" href="./src/tv-catelogue.html"> TV </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./src/refrigerator.html">
+                <a class="nav-link" href="./src/refrigerator-catelogue.html">
                   Refrigerator
                 </a>
               </li>
@@ -78,14 +74,19 @@
       </div>
     </header>
 
-    <section class="main-1">
-      <div class="main-wrapper">
-        <div class="main-img">
-          <div class="main-intro">
-            <h2>Welcome to Our Store</h2>
-            <p>Country's No. 1 Electronics Store</p>
-          </div>
+    <section class="main-about">
+      <div class="about-section">
+        <div class="about-info">
+          <h2>Our Motivation</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
+            consectetur adipiscing elit ut. Purus faucibus ornare suspendisse
+            sed nisi lacus sed. Mauris pellentesque pulvinar pellentesque
+            habitant morbi tristique senectus et netus.
+          </p>
         </div>
+        <div class="about-leaders"></div>
       </div>
     </section>
 
@@ -95,7 +96,7 @@
         <div class="footer-top">
           <div class="footer-left">
             <ul>
-              <li><a href="./src/about.html"> About Us </a></li>
+              <li>About Us</li>
               <li>Privacy Policy</li>
               <li>Our Partners</li>
             </ul>

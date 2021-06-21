@@ -132,7 +132,7 @@ li {
   padding: 5px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9dbfaf;
+  color: #686767;
 }
 
 .nav-item .search-btn {
@@ -178,4 +178,50 @@ a.nav-link {
 }
 .main-intro p {
   font-size: 32px;
+}
+
+/* Footer Section */
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  color: #b0b0b0;
+}
+
+.footer-navigation h2 {
+  text-transform: uppercase;
+}
+.footer {
+  margin: 50px 150px 10px;
+}
+
+.footer h2 {
+  margin-bottom: 20px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-top li {
+  padding: 10px 0;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  width: 100%;
+}
+
+.footer-bottom {
+  border-top: #3f4b4d 2px solid;
+  padding: 20px 0 0;
+  margin: 20px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
 }
